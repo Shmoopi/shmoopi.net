@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shmoopi LLC - iOS, macOS, watchOS, tvOS Development, and Security Solutions">
+  <title>Shmoopi</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="Shmoopi LLC">
+        <span class="hidden-xs">Shmoopi</span>
+      </a>
+
+      <button class="navbar-toggle" aria-label="Toggle navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <nav>
+        <ul class="navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li>
+            <a href="services.html">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="app-development.html">App Development</a></li>
+              <li><a href="consulting.html">Consulting</a></li>
+              <li><a href="ios-security.html">iOS Security</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Slider Section -->
+  <section id="main-slider">
+    <div class="slider-item" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-12">
+            <div class="slider-content">
+              <h2>Development & Security Solutions</h2>
+              <p>Our company specializes in creating innovative applications, consulting, and providing enterprise-level security solutions to protect your software from modifications and unauthorized use.</p>
+              <a href="services.html" class="btn btn-transparent btn-lg">Learn More</a>
+            </div>
+          </div>
+          <div class="col-6 hidden-xs">
+            <div style="text-align: center;">
+              <a href="services.html"><img src="assets/images/anti-piracy-icon.png" alt="Anti-Piracy" style="max-width: 300px; margin: 0 auto; border-radius: 50px; transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="clouds">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>What We Do</h2>
+        <p>We provide comprehensive solutions for iOS, macOS, watchOS, and tvOS development and software security</p>
+      </div>
+      <div class="row">
+        <div class="col-4 col-sm-12">
+          <a href="app-development.html" class="service-box-link">
+            <div class="service-box">
+              <div class="icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#34495e" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12" y2="18"></line>
+                </svg>
+              </div>
+              <h4>Development</h4>
+              <p>Custom solutions built with Swift and Objective-C, designed for performance and user experience.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-sm-12">
+          <a href="ios-security.html" class="service-box-link">
+            <div class="service-box">
+              <div class="icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#34495e" stroke-width="2">
+                  <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                  <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+              </div>
+              <h4>Mobile Security Solutions</h4>
+              <p>Protect your applications from modifications, manipulation, and unauthorized distribution with our security library.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-4 col-sm-12">
+          <a href="consulting.html" class="service-box-link">
+            <div class="service-box">
+              <div class="icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#34495e" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+              </div>
+              <h4>Consulting</h4>
+              <p>Expert guidance on implementing features, bug fixes, and security for your software and infrastructure.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Carousel -->
+  <section id="featured-carousel">
+    <div class="carousel" id="productCarousel">
+      <div class="carousel-inner">
+        <!-- Slide 1: iOS Security -->
+        <div class="carousel-slide active" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6 col-sm-12 text-center mb-3">
+                <a href="ios-security.html"><img src="assets/images/anti-piracy-icon.png" alt="iOS Security Library" style="max-width: 250px; margin: 0 auto; border-radius: 40px;"></a>
+              </div>
+              <div class="col-6 col-sm-12" style="padding-left: 10px;">
+                <h2>iOS Security Library</h2>
+                <p>Our flagship security solution for iOS and iPadOS. Protect your applications from:</p>
+                <ul>
+                  <li>Modifications</li>
+                  <li>Unauthorized copies</li>
+                  <li>Debugging and reverse engineering</li>
+                  <li>Memory tampering and runtime manipulation</li>
+                  <li>Code injection</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="ios-security.html" class="btn btn-transparent">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: Custom Development -->
+        <div class="carousel-slide" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6 col-sm-12 text-center mb-3">
+                <a href="consulting.html">
+                  <div style="width: 250px; height: 250px; margin: 0 auto; background: rgba(255,255,255,0.2); border-radius: 40px; display: flex; align-items: center; justify-content: center;">
+                    <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5">
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6 col-sm-12" style="padding-left: 10px;">
+                <h2>Custom Development</h2>
+                <p>Full-service application development for Apple platforms:</p>
+                <ul>
+                  <li>iOS &amp; iPadOS applications</li>
+                  <li>macOS desktop applications</li>
+                  <li>watchOS &amp; tvOS apps</li>
+                  <li>Cross-platform solutions</li>
+                  <li>App Store optimization</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="consulting.html" class="btn btn-transparent">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Navigation -->
+      <div class="carousel-nav">
+        <button class="carousel-dot active" data-slide="0"></button>
+        <button class="carousel-dot" data-slide="1"></button>
+      </div>
+
+      <!-- Carousel Arrows -->
+      <button class="carousel-arrow carousel-arrow-prev" id="carouselPrev"></button>
+      <button class="carousel-arrow carousel-arrow-next" id="carouselNext"></button>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section id="why-choose" class="clouds">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Why Choose Us?</h2>
+      </div>
+      <div class="row">
+        <div class="col-6 col-sm-12">
+          <a href="about.html" class="media-link">
+            <div class="media">
+              <div class="media-left">
+                <span class="icon-md" style="background-color: #3498db;">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+              </div>
+              <div class="media-body">
+                <h4>Proven Track Record</h4>
+                <p>Years of experience protecting iOS, macOS, watchOS, and tvOS applications for developers worldwide. Hundreds of applications developed over a wide range of categories.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-12">
+          <a href="services.html" class="media-link">
+            <div class="media">
+              <div class="media-left">
+                <span class="icon-md" style="background-color: #2ecc71;">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </span>
+              </div>
+              <div class="media-body">
+                <h4>Timeliness</h4>
+                <p>Scheduled delivery of features, bug fixes, and security updates for projects of any size. Hourly or contract pricing available.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-12">
+          <a href="services.html" class="media-link">
+            <div class="media">
+              <div class="media-left">
+                <span class="icon-md" style="background-color: #e74c3c;">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="media-body">
+                <h4>Comprehensive Solutions</h4>
+                <p>Full-stack solutions for projects of any size. No project is too large or small. Bring your ideas to life with our expertise.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-12">
+          <a href="contact.html" class="media-link">
+            <div class="media">
+              <div class="media-left">
+                <span class="icon-md" style="background-color: #9b59b6;">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </span>
+              </div>
+              <div class="media-body">
+                <h4>Developer Support</h4>
+                <p>Dedicated support to help fix and maintain your applications long into the future.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta" class="text-center" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); color: #fff;">
+    <div class="container">
+      <h2>Ready to Develop Your Applications?</h2>
+      <p style="margin-bottom: 30px;">Get started with us today and get your projects underway.</p>
+      <a href="contact.html" class="btn btn-transparent btn-lg">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div>
+        <p>&copy; 2026 Shmoopi LLC. All rights reserved.</p>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" id="gototop" title="Go to top">&uarr;</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
