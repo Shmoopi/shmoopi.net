@@ -312,6 +312,7 @@ ul {
   border: none;
   cursor: pointer;
   padding: 10px;
+  margin-left: auto;
 }
 
 .navbar-toggle .icon-bar {
