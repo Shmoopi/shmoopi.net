@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shmoopi LLC Apps - iOS, macOS, and Safari applications">
+  <title>Apps | Shmoopi LLC</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="assets/images/logo.png" alt="Shmoopi LLC">
+        <span class="hidden-xs">Shmoopi</span>
+      </a>
+
+      <button class="navbar-toggle" aria-label="Toggle navigation">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <nav>
+        <ul class="navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active">
+            <a href="apps.html">Apps</a>
+            <ul class="dropdown-menu">
+              <li><a href="ireadr.html">iReadr</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="services.html">Services</a>
+            <ul class="dropdown-menu">
+              <li><a href="app-development.html">App Development</a></li>
+              <li><a href="consulting.html">Consulting</a></li>
+              <li><a href="ios-security.html">iOS Security</a></li>
+              <li><a href="open-source.html">Open Source</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <section id="title" class="peter-river">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-6 col-sm-12">
+          <h1>Our Apps</h1>
+        </div>
+        <div class="col-6 col-sm-12">
+          <ul class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>Apps</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Apps Carousel -->
+  <section id="apps-carousel-section">
+    <div class="carousel" id="appsCarousel">
+      <div class="carousel-inner">
+        <!-- Slide 1: iReadr -->
+        <div class="carousel-slide active" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6 col-sm-12 text-center mb-3">
+                <a href="ireadr.html"><img src="assets/images/ireadr-icon.png" alt="iReadr" style="max-width: 250px; margin: 0 auto; border-radius: 40px;"></a>
+              </div>
+              <div class="col-6 col-sm-12" style="padding-left: 10px;">
+                <h2>iReadr</h2>
+                <p>Speed read anything, anywhere. An RSVP speed reading app with:</p>
+                <ul>
+                  <li>Adjustable speed from 100-1,000 WPM</li>
+                  <li>Optimal Recognition Point (ORP) highlighting</li>
+                  <li>Safari extension for web articles</li>
+                  <li>Reading statistics and streak tracking</li>
+                  <li>iOS, macOS, and Safari support</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="ireadr.html" class="btn btn-transparent" style="margin-right: 10px;">Learn More</a>
+              <a href="https://apps.apple.com/us/app/ireadr/id6758648709" target="_blank" rel="noopener noreferrer" class="btn btn-transparent">App Store</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2: More Coming Soon -->
+        <div class="carousel-slide" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-6 col-sm-12 text-center mb-3">
+                <div style="width: 250px; height: 250px; margin: 0 auto; background: rgba(255,255,255,0.2); border-radius: 40px; display: flex; align-items: center; justify-content: center;">
+                  <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5">
+                    <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                    <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                  </svg>
+                </div>
+              </div>
+              <div class="col-6 col-sm-12" style="padding-left: 10px;">
+                <h2>More Apps Coming Soon</h2>
+                <p>We're working on new applications for the Apple ecosystem. Stay tuned for announcements about upcoming releases.</p>
+                <ul>
+                  <li>Innovative tools for productivity</li>
+                  <li>Built with SwiftUI and modern frameworks</li>
+                  <li>Privacy-first design</li>
+                  <li>Available across Apple platforms</li>
+                </ul>
+              </div>
+            </div>
+            <div class="text-center" style="margin-top: 15px;">
+              <a href="contact.html" class="btn btn-transparent">Get Notified</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Navigation -->
+      <div class="carousel-nav">
+        <button class="carousel-dot active" data-slide="0"></button>
+        <button class="carousel-dot" data-slide="1"></button>
+      </div>
+
+      <!-- Carousel Arrows -->
+      <button class="carousel-arrow carousel-arrow-prev" id="appsCarouselPrev"></button>
+      <button class="carousel-arrow carousel-arrow-next" id="appsCarouselNext"></button>
+    </div>
+  </section>
+
+  <!-- Featured App: iReadr -->
+  <section id="featured-apps" class="clouds">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="scroll-animate scroll-fade-up">Featured</h2>
+        <p class="scroll-animate scroll-fade-up scroll-delay-1">Our latest application</p>
+      </div>
+      <div class="row" style="justify-content: center;">
+        <div class="col-6 col-sm-12 mb-3 scroll-animate scroll-fade-up scroll-delay-2" style="max-width: 500px;">
+          <a href="ireadr.html" class="service-box-link">
+            <div class="box box-animated text-center" style="height: 100%;">
+              <div class="service-box">
+                <div style="margin-bottom: 20px;">
+                  <img src="assets/images/ireadr-icon.png" alt="iReadr" style="max-width: 120px; margin: 0 auto; border-radius: 25px;">
+                </div>
+                <h4>iReadr</h4>
+                <p>Speed read anything, anywhere. An RSVP speed reading app for iOS, macOS, and Safari. Read at speeds of 300-1,000+ words per minute with scientifically-backed technology.</p>
+                <div style="margin-top: 15px;">
+                  <span style="display: inline-block; background: rgba(52,152,219,0.15); padding: 4px 12px; border-radius: 12px; color: #3498db; font-size: 13px; margin: 2px;">iOS</span>
+                  <span style="display: inline-block; background: rgba(52,152,219,0.15); padding: 4px 12px; border-radius: 12px; color: #3498db; font-size: 13px; margin: 2px;">macOS</span>
+                  <span style="display: inline-block; background: rgba(52,152,219,0.15); padding: 4px 12px; border-radius: 12px; color: #3498db; font-size: 13px; margin: 2px;">Safari</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section id="cta" class="peter-river text-center">
+    <div class="container">
+      <h2 class="scroll-animate scroll-fade-up">Have an App Idea?</h2>
+      <p class="scroll-animate scroll-fade-up scroll-delay-1" style="margin-bottom: 30px;">We build custom applications for the Apple ecosystem. Let's bring your idea to life.</p>
+      <a href="contact.html" class="btn btn-transparent btn-lg scroll-animate scroll-fade-up scroll-delay-2">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="midnight-blue">
+    <div class="container">
+      <div>
+        <p>&copy; 2026 Shmoopi LLC. All rights reserved.</p>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="apps.html">Apps</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" id="gototop" title="Go to top">&uarr;</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
